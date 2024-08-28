@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450">
+  <!-- Head outline -->
+  <ellipse cx="200" cy="200" rx="150" ry="180" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Occipital Electrodes -->
+  <circle cx="140" cy="320" r="15" fill="red" stroke="black"/>
+  <text x="125" y="355" font-size="14">O1</text>
+  <circle cx="200" cy="340" r="15" fill="red" stroke="black"/>
+  <text x="190" y="375" font-size="14">Oz</text>
+  <circle cx="260" cy="320" r="15" fill="red" stroke="black"/>
+  <text x="250" y="355" font-size="14">O2</text>
+  
+  <!-- Central Electrodes -->
+  <circle cx="130" cy="180" r="15" fill="blue" stroke="black"/>
+  <text x="110" y="160" font-size="14">CP5</text>
+  <circle cx="200" cy="220" r="15" fill="blue" stroke="black"/>
+  <text x="210" y="245" font-size="14">CPz</text>
+  <circle cx="270" cy="180" r="15" fill="blue" stroke="black"/>
+  <text x="275" y="160" font-size="14">CP6</text>
+  
+  <!-- Stimulator -->
+  <rect x="380" y="175" width="100" height="50" fill="lightgray" stroke="black"/>
+  <text x="390" y="205" font-size="16" font-weight="bold">Stimulator</text>
+  
+  <!-- Tree-branch structure connections -->
+  <path d="M130,180 Q255,180 350,185" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M200,220 Q290,200 350,185" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M270,180 Q325,180 350,185" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M350,185 L380,185" stroke="blue" stroke-width="4" fill="none"/>
+  
+  <path d="M140,320 Q260,270 350,215" stroke="red" stroke-width="2" fill="none"/>
+  <path d="M200,340 Q290,280 350,215" stroke="red" stroke-width="2" fill="none"/>
+  <path d="M260,320 Q320,270 350,215" stroke="red" stroke-width="2" fill="none"/>
+  <path d="M350,215 L380,215" stroke="red" stroke-width="4" fill="none"/>
+  
+  <!-- Labels -->
+  <text x="320" y="160" font-size="14" fill="blue" font-weight="bold">+ (Positive)</text>
+  <text x="320" y="280" font-size="14" fill="red" font-weight="bold">- (Negative)</text>
+  
+  <!-- Legend -->
+  <rect x="100" y="400" width="300" height="40" fill="white" stroke="black"/>
+  <circle cx="120" cy="420" r="7" fill="red"/>
+  <text x="135" y="425" font-size="12">Negative pole</text>
+  <circle cx="250" cy="420" r="7" fill="blue"/>
+  <text x="265" y="425" font-size="12">Positive pole</text>
+</svg>
